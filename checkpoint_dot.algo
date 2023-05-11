@@ -1,0 +1,10 @@
+ALGORITHM dot
+VAR
+    i, n, s:INTEGER
+    tab, tab2 : ARRAY_OF INTEGER;
+BEGIN
+    FOR i FROM 0 TO n-1 DO
+        s = s + (tab[i]*tab2[i])
+    END_FOR
+    write("le produit scalaire est: ", s)
+END

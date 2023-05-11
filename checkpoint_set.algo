@@ -1,0 +1,22 @@
+ALGORITHM set_check
+VAR
+    i, j, s, n:INTEGER
+    tab, tab2 : ARRAY_OF INTEGER;
+BEGIN
+s:=0
+    FOR i FROM 0 TO n-1  DO
+        IF (Tab[i] = tab2[j]) THEN
+            break;
+        ELSE
+            s = s + tab[i]
+        END_IF
+    END_FOR
+    FOR j FROM 0 TO n-1 DO
+        IF (Tab2[j] = tab[i]) THEN
+            break;
+        ELSE
+            s = s + tab2[j]
+        END_IF
+    END_FOR
+    write("La somme des elements distincts est: ",s)
+END
